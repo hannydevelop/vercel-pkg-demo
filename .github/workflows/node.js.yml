@@ -26,8 +26,8 @@ jobs:
     - name: mac package
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: hvac-demo-device-node14-linux-arm64
-        path: dist/hvac-demo-device-node14-linux-arm64    
+        name: hvac-demo-device-macos
+        path: dist/hvac-demo-device-macos     
     - name: win package
       uses: actions/upload-artifact@v2.2.4
       with:
