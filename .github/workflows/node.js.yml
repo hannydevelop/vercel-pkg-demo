@@ -27,7 +27,7 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
         name: hvac-demo-device-macos
-        path: dist/hvac-demo-device-macos     
+        path: dist/hvac-demo-device-macos.dmg     
     - name: win package
       uses: actions/upload-artifact@v2.2.4
       with:
