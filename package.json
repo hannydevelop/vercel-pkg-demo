@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "build": "npx pkg -t linux,win,macos . --out-path dist"
+    "build": "npx pkg -t lnode14-linux-arm64 . --out-path dist"
   },
   "author": "ksivamuthu",
   "license": "ISC",
